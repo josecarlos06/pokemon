@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" class="formulario">
+        <label for="">Buscar</label>
+        <input type="number" name="" id="number_id" placeholder="Ingresa id de pokemon">
+        <input type="button" value="Enviar" onclick="poked()">
+    </form>
+    <main class="flex"></main>
+
+  <template id="card" class="templete">
+    <article class="card">
+      <img src="./images/bg-pattern-card.svg" alt="imagen header card" class="card-header"/>
+      <div class="card-body">
+        <img
+          src="./images/image-victor.jpg"
+          alt="imagen de vitoko"
+          class="card-body-img"
+        />
+        <h1 class="card-body-title">
+          Victor charst
+          <span>26</span>
+        </h1>
+        <p class="card-body-text">London</p>
+      </div>
+      <div class="card-footer">
+        <div class="card-footer-social">
+          <h3>80K</h3>
+          <p>Ataque</p>
+        </div>
+        <div class="card-footer-social">
+          <h3>803K</h3>
+          <p>Ataque Especial</p>
+        </div>
+        <div class="card-footer-social">
+          <h3>1.4K</h3>
+          <p>Defensa</p>
+        </div>
+      </div>
+      <a href="javascript:location.reload()" class="refresk">Buscar pokemon</a>
+    </article>
+  </template>
+
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
